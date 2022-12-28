@@ -1,0 +1,15 @@
+cloud_name: 'da3q0bau5'
+cloud_api_key: '914969112247829'
+cloud_api_secret: '2r644Jc0rm6ZOeTqQ4YveWS_3PY'
+
+# Add configuration values here, as shown below.
+#
+pusher_app_id: "da3q0bau5"
+pusher_key: '914969112247829'
+pusher_secret: '2r644Jc0rm6ZOeTqQ4YveWS_3PY'
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
