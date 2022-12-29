@@ -14,8 +14,7 @@ ActiveRecord::Schema.define(version: 2022_08_29_165639) do
 
   create_table "comments", force: :cascade do |t|
     t.string "text"
-    t.string "media"
-    t.integer "reaction"
+    t.string "media"    
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "post_id", null: false
@@ -49,8 +48,7 @@ ActiveRecord::Schema.define(version: 2022_08_29_165639) do
 
   create_table "posts", force: :cascade do |t|
     t.string "text"
-    t.string "media"
-    t.integer "reaction"
+    t.string "media"    
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "author_id", null: false
