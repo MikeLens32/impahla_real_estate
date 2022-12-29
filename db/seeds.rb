@@ -32,10 +32,10 @@ nyc_event = Event.create(host: ovan, text:'NYC Real Estate Networking (Commercia
 
 puts "----Create Posts----"
 # Post.create(author: ,text:'', media:'', reaction:0)
-first_home = Post.create(author: mike, text:'After a long year of searching my wife and I finally secured the home we\'ve been looking for!', media:'https://cdn-1.eneighborhoods.com/x2/@v=-513556722@/78091/8/872/M00000490-H5066872/M00000490-H5066872_1.jpg', reaction:2)
+first_home = Post.create(author: mike, text:'After a long year of searching my wife and I finally secured the home we\'ve been looking for!', media:'https://cdn-1.eneighborhoods.com/x2/@v=-513556722@/78091/8/872/M00000490-H5066872/M00000490-H5066872_1.jpg')
 
 puts "----Create Comments----"
 # Comment.create(user: , post: ,text:'', media:'', reaction:0)
-first_post = Comment.create(user: larry, post: first_home, text:'I\'m so happy for you and congradulations!', media:'', reaction:4)
+first_post = Comment.create(user: larry, post: first_home, text:'I\'m so happy for you and congradulations!', media:'')
 
 puts "----COMPLETE----"
